@@ -1,4 +1,4 @@
-<center>## BUILT USING</center>
+# REACT ADMIN DASHBOARD CLIENT
 <div align="center" style="margin: 30px;">
 <a href="https://refine.dev/">
   <img src="https://raw.githubusercontent.com/refinedev/refine/master/logo.png"   style="width:250px;" align="center" />
@@ -16,5 +16,3 @@
 </div>
 </div>
 <br />
-
-<center># REACT ADMIN DASHBOARD CLIENT</center>

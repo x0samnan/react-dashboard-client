@@ -10,7 +10,7 @@ import {
 
 const Home = () => {
     const { data, isLoading, isError } = useList({
-        resource: "properties",
+        resource: "products",
         config: {
             pagination: {
                 pageSize: 4,
@@ -31,25 +31,25 @@ const Home = () => {
 
             <Box mt="20px" display="flex" flexWrap="wrap" gap={4}>
                 <PieChart
-                    title="Properties for Sale"
-                    value={684}
-                    series={[75, 25]}
+                    title="Products for Sale"
+                    value={821}
+                    series={[79, 21]}
                     colors={["#275be8", "#c4e8ef"]}
                 />
                 <PieChart
-                    title="Properties for Rent"
-                    value={550}
-                    series={[60, 40]}
+                    title="Products for Rent"
+                    value={127}
+                    series={[32, 68]}
                     colors={["#275be8", "#c4e8ef"]}
                 />
                 <PieChart
                     title="Total customers"
-                    value={5684}
-                    series={[75, 25]}
+                    value={11212}
+                    series={[90, 10]}
                     colors={["#275be8", "#c4e8ef"]}
                 />
                 <PieChart
-                    title="Properties for Cities"
+                    title="Off-season Products"
                     value={555}
                     series={[75, 25]}
                     colors={["#275be8", "#c4e8ef"]}

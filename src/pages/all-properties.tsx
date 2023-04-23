@@ -60,8 +60,8 @@ const AllProperties = () => {
                 <Stack direction="column" width="100%">
                     <Typography fontSize={25} fontWeight={700} color="#11142d">
                         {!allProperties.length
-                            ? "There are no properties"
-                            : "All Properties"}
+                            ? "There are no products"
+                            : "All Products"}
                     </Typography>
                     <Box
                         mb={2}
@@ -125,14 +125,13 @@ const AllProperties = () => {
                             >
                                 <MenuItem value="">All</MenuItem>
                                 {[
-                                    "Apartment",
-                                    "Villa",
-                                    "Farmhouse",
-                                    "Condos",
-                                    "Townhouse",
-                                    "Duplex",
-                                    "Studio",
-                                    "Chalet",
+                                    "Shirts",
+                                    "Pants",
+                                    "Tshirts",
+                                    "Jackets",
+                                    "Hoodies",
+                                    "Accessories",
+                                    "Others",
                                 ].map((type) => (
                                     <MenuItem
                                         key={type}
@@ -153,7 +152,7 @@ const AllProperties = () => {
                 alignItems="center"
             >
                 <CustomButton
-                    title="Add Property"
+                    title="Add Product"
                     handleClick={() => navigate("/properties/create")}
                     backgroundColor="#475be8"
                     color="#fcfcfc"

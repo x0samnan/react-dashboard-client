@@ -49,7 +49,7 @@ const Form = ({
                                 color: "#11142d",
                             }}
                         >
-                            Enter property name
+                            Enter product name
                         </FormHelperText>
                         <TextField
                             fullWidth
@@ -69,7 +69,7 @@ const Form = ({
                                 color: "#11142d",
                             }}
                         >
-                            Enter Description
+                            Enter Product Description
                         </FormHelperText>
                         <TextareaAutosize
                             minRows={5}
@@ -99,7 +99,7 @@ const Form = ({
                                     color: "#11142d",
                                 }}
                             >
-                                Select Property Type
+                                Select Product Type
                             </FormHelperText>
                             <Select
                                 variant="outlined"
@@ -107,19 +107,18 @@ const Form = ({
                                 displayEmpty
                                 required
                                 inputProps={{ "aria-label": "Without label" }}
-                                defaultValue="apartment"
+                                defaultValue="ment"
                                 {...register("propertyType", {
                                     required: true,
                                 })}
                             >
-                                <MenuItem value="apartment">Apartment</MenuItem>
-                                <MenuItem value="villa">Villa</MenuItem>
-                                <MenuItem value="farmhouse">farmhouse</MenuItem>
-                                <MenuItem value="condos">Condos</MenuItem>
-                                <MenuItem value="townhouse">Townhouse</MenuItem>
-                                <MenuItem value="duplex">Duplex</MenuItem>
-                                <MenuItem value="studio">Studio</MenuItem>
-                                <MenuItem value="chalet">Chalet</MenuItem>
+                                <MenuItem value="Shirts">Shirts</MenuItem>
+                                <MenuItem value="Pants">Pants</MenuItem>
+                                <MenuItem value="Tshirts">Tshirts</MenuItem>
+                                <MenuItem value="Jackets">Jackets</MenuItem>
+                                <MenuItem value="Hoodies">Hoodies</MenuItem>
+                                <MenuItem value="Accessories">Accessories</MenuItem>
+                                <MenuItem value="Others">Others</MenuItem>
                             </Select>
                         </FormControl>
                         <FormControl>
@@ -131,7 +130,7 @@ const Form = ({
                                     color: "#11142d",
                                 }}
                             >
-                                Enter property price
+                                Enter product price
                             </FormHelperText>
                             <TextField
                                 fullWidth
@@ -179,7 +178,7 @@ const Form = ({
                                 fontWeight={500}
                                 my="10px"
                             >
-                                Property Photo
+                                Product Photo
                             </Typography>
 
                             <Button

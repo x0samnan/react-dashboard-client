@@ -138,7 +138,7 @@ function App() {
                     catchAll={<ErrorComponent />}
                     resources={[
                         {
-                            name: "properties",
+                            name: "products",
                             list: AllProperties,
                             show: PropertyDetails,
                             create: CreateProperty,
@@ -146,20 +146,10 @@ function App() {
                             icon: <VillaOutlined />,
                         },
                         {
-                            name: "agents",
+                            name: "Sellers",
                             list: Agents,
                             show: AgentProfile,
                             icon: <PeopleAltOutlined />,
-                        },
-                        {
-                            name: "reviews",
-                            list: Home,
-                            icon: <StarOutlineRounded />,
-                        },
-                        {
-                            name: "messages",
-                            list: Home,
-                            icon: <ChatBubbleOutline />,
                         },
                         {
                             name: "my-profile",

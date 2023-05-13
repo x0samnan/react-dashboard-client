@@ -19,7 +19,7 @@ import {
     StarOutlineRounded,
     VillaOutlined,
 } from "@mui/icons-material";
-
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import dataProvider from "@refinedev/simple-rest";
 import routerProvider from "@refinedev/react-router-v6/legacy";
 import axios, { AxiosRequestConfig } from "axios";
@@ -150,6 +150,12 @@ function App() {
                             list: Agents,
                             show: AgentProfile,
                             icon: <PeopleAltOutlined />,
+                        },
+                        {
+                            name: "orders",
+                            options: { label: "Orders" },
+                            list: MyProfile,
+                            icon: <AddShoppingCartIcon />,
                         },
                         {
                             name: "my-profile",

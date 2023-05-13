@@ -153,7 +153,7 @@ const AllProperties = () => {
             >
                 <CustomButton
                     title="Add Product"
-                    handleClick={() => navigate("/properties/create")}
+                    handleClick={() => navigate("/products/create")}
                     backgroundColor="#475be8"
                     color="#fcfcfc"
                     icon={<Add />}

@@ -39,7 +39,7 @@ const AgentCard = ({
     const generateLink = () => {
         if (currentUser.email === email) return "/my-profile";
 
-        return `/agents/show/${id}`;
+        return `/sellers/show/${id}`;
     };
 
     return (
